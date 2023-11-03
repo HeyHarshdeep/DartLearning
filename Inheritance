@@ -1,0 +1,28 @@
+void main()
+{
+   user obj = SuperUser();
+  
+  obj.login();
+  print(obj.username);
+  print(obj.age);
+}
+class user{
+  String username ='harsh';
+  int age =28;
+  
+  void login()
+  {
+    print('user logged in');
+  }
+}
+
+class SuperUser extends user
+{
+  String username ='Gifty';
+  int age =20;
+  
+  void login()
+  {
+    print('Super user logged in');
+  }
+}
