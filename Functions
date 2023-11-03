@@ -1,0 +1,15 @@
+void main()
+{
+  print(sayHi());
+    print(myAge());
+  
+ }
+
+String sayHi()
+{
+  return 'hi';
+}
+int myAge()
+{
+  return 28;
+}
